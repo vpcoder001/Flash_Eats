@@ -131,7 +131,7 @@ function Login() {
               <FiMail className="absolute left-4 top-1/2 -translate-y-1/2 text-slate-500 text-base" />
               <input
                 type="text"
-                placeholder={role === "admin" ? "admin@ietlucknow.ac.in or admin" : "24005201000xx@ietlucknow.ac.in"}
+                placeholder={role === "admin" ? "admin@ietlucknow.ac.in or admin" : "25005201000xx@ietlucknow.ac.in"}
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 className="w-full bg-dark-950/80 border border-white/10 rounded-2xl py-3.5 pl-11 pr-4 text-sm text-white placeholder-slate-600 outline-none focus:border-brand-500/50 focus:ring-1 focus:ring-brand-500/50 transition-all"
